@@ -10,6 +10,20 @@
   padding: 0;
 }
 
+h1, h2 {
+    padding: 5%;
+}
+
+p {
+    font-family: Montserrat;
+    font-size: 120%;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: #B9ff66;
+}
+
 /*header*/
 
 #top-bar {
@@ -51,6 +65,7 @@
 #logo {
     height: 150px;
     width: 150px;
+    margin-left: 70px;
 }
 /*Hero*/
 
@@ -72,11 +87,10 @@
 #hero-cover-text {
     height: 300px;
     width: 300px;
-    text-align:center;
+    text-align: center;
+    font-family: 'Black Ops One';
 
-
-    padding-top: 10px;
-    padding-left: 10px;
+    padding: 20px;
     background-color: #B9ff66;
     opacity: 0.5;
     
@@ -100,11 +114,11 @@
 .about-block {
     background-color: pink;
     height: 100%;
-    width: 300px;
-    font:
+    width: 400px;
+    font-family: 'Black Ops One';
     margin-left: 10px;
     text-align: center;
-    padding: 5%;
+    padding: 1%;
 }
 
 /*footer*/
@@ -121,23 +135,20 @@ main {
 
 footer {
     height: 150px;
-}
-
-.container {
-    background-color: blue;
+    background-color: black;
 }
 
 .social-container {
-    background-color: blueviolet;
     display: flex;
     justify-content: center;
-}
-    
+}   
 
 .social-links {
     width: 100px;
     height: 50px;
+    background-color: black;
     text-align: center;
     font-size: 300%;
-    color: #3a3a3a;
+    color: #B9ff66;
+    text-decoration: none;
 }
