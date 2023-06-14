@@ -14,7 +14,8 @@ header {
     height: 300px;
     margin-left: 30px;
     margin-top: 30px;
-    background-color: blueviolet;
+    background-color: black;
+    position: relative;
 }
 
 #logo {
@@ -24,6 +25,8 @@ header {
 
 #navbar {
     background-color: blue;
+    position: aboslute;
+    right: 100px;
 }
 
 /*Hero*/
@@ -39,13 +42,17 @@ header {
 #hero-image {
     height: 300px;
     width: 100%;
-    background: url(../images/red-boots-hero.jpg) no-repeat center center;
+    background: url(../images/boots-image-hero.jpg) no-repeat center center;
+    background-size: contain;
 }
 
 #hero-cover-text {
-    height: 50px;
-    width: 50px;
-    background-color:crimson;
+    height: 100px;
+    width: 100px;
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: #B9ff66;
+    opacity: 0.5;
     position: absolute;
     right: 150px;
     bottom: 30px;
