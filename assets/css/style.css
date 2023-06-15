@@ -166,12 +166,67 @@ a, a:visited {
     height: 300px;
     width: 100%;
     margin-bottom: 20px;
-    background-image: url(../assets/images/ball-only-logo.jpg) no-repeat center center;
+    background: url(../images/ball-only-logo.jpg) no-repeat center center;
 }
 
 #sign-up-container h3 {
     font-family: 'Black Ops One';
-    padding: 10px;
+    font-size: 150%;
+    margin-left: 100px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+#sign-up-container li {
+    margin-left: 100px;
+    font-family: Montserrat;
+    font-size: 120%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sign-up-button {
+  appearance: none;
+  background-color: #000000;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 100px;
+  margin-top: 20px;
+  min-height: 60px;
+  min-width: 0;
+  max-width: 300px;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+}
+
+.sign-up-button :disabled {
+  pointer-events: none;
+}
+
+.sign-up-button:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.sign-up-button:active {
+  box-shadow: none;
+  transform: translateY(0);
 }
 
 /*footer*/
