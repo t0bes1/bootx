@@ -69,6 +69,7 @@ a, a:visited {
     height: 150px;
     width: 150px;
     margin-left: 250px;
+    
 }
 /*Hero*/
 
@@ -183,6 +184,9 @@ a, a:visited {
 #top-boots-price-info {
     font-size: 150%;
     background-color: orange;
+    border: darkorange;
+    border-width: 5px;
+    border-style: solid;
     padding: 5%;
     width: 200px;
     margin-left: 100px;
