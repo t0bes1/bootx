@@ -19,6 +19,10 @@ p {
     font-size: 120%;
 }
 
+li {
+    font-family: Montserrat;
+}
+
 a, a:visited {
     text-decoration: none;
     color: #B9ff66;
@@ -40,7 +44,7 @@ a, a:visited {
     font-size: 125%;
     width: 300px;
     height: 150px;
-    padding-top: 50px;
+    padding-top: 30px;
     
     position: absolute;
     right: 300px;
@@ -51,6 +55,7 @@ a, a:visited {
     list-style-type: none;
     display: flex;
     justify-content: right;
+    padding: 1%;
 }
 
 #navbar a {
@@ -112,13 +117,61 @@ a, a:visited {
 }
 
 .about-block {
-    background-color: pink;
     height: 100%;
     width: 400px;
     font-family: 'Black Ops One';
     margin-left: 10px;
     text-align: center;
     padding: 1%;
+}
+
+/*top boots*/
+
+#top-boots-section {
+    height: 450px;
+    width: 100%;
+    margin-top: 25px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.top-boots-block {
+    height: 100%;
+    width: 400px;
+    font-family: 'Black Ops One';
+    margin-left: 10px;
+    text-align: center;
+    padding: 1%;
+}
+
+.top-boots-block p {
+    padding: 1%;
+}
+
+#top-boots-img {
+    width: 300px;
+    height: 300px;
+    margin-left: 30px;
+}
+
+#top-boots-img img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*sign up container*/
+
+#sign-up-container {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 20px;
+    background-image: url(../assets/images/ball-only-logo.jpg) no-repeat center center;
+}
+
+#sign-up-container h3 {
+    font-family: 'Black Ops One';
+    padding: 10px;
 }
 
 /*footer*/
@@ -141,6 +194,8 @@ footer {
 .social-container {
     display: flex;
     justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }   
 
 .social-links {
@@ -151,4 +206,13 @@ footer {
     font-size: 300%;
     color: #B9ff66;
     text-decoration: none;
+}
+
+#footer-copyright {
+    text-align: center;
+    font-size: 50%;
+    background-color: black;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 50px;
 }
