@@ -12,7 +12,7 @@
 
 h1, h2 {
     font-family: 'Black Ops One';
-    padding: 3%;
+    padding: 2%;
 }
 
 p {
@@ -266,33 +266,45 @@ a, a:visited {
 /* sign up page */
 
 #sign-up-section {
+    height: 200px;
+    width: 100%;
     margin-top: 20px;
     background-color: #B9ff66;
 }
 
 #sign-up-why {
     margin-left: 100px;
-    background-color: #B9ff66;
 }
 
 #sign-up-why li {
+    margin-left: 50px;
     padding: 10px;
-    background-color: #B9ff66;
-
-}
+    font-size: 120%;
+ }
 
 #sign-up-form {
     margin-top: 20px;
-    background-color: orange;
+    margin-bottom: 50px;
 }
 
 #sign-up-form-detail {
+    Height: 450px;
     margin-top: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
-    background-color: #B9ff66;
+    margin-left: 150px;
     font-family: Montserrat;
     margin-top: 50px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text-input {
+    border-style: solid;
+    border-color: #B9ff66;
+    border-width: 5px;
+    padding: 10px;
+    width: 300px;
 }
 
 
