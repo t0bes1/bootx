@@ -249,7 +249,7 @@ a, a:visited {
   will-change: transform;
 }
 
-.sign-up-button :disabled {
+.sign-up-button:disabled {
   pointer-events: none;
 }
 
@@ -268,23 +268,24 @@ a, a:visited {
 #sign-up-section {
     height: 200px;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 10px;
     background-color: #B9ff66;
 }
 
 #sign-up-why {
-    margin-left: 100px;
+    margin-left: 120px;
 }
 
 #sign-up-why li {
-    margin-left: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
     padding: 10px;
     font-size: 120%;
  }
 
 #sign-up-form {
-    margin-top: 20px;
-    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 #sign-up-form-detail {
