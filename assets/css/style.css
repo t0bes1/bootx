@@ -271,24 +271,19 @@ a, a:visited {
 }
 
 #sign-up-why {
-
+    margin-left: 100px;
     background-color: #B9ff66;
-
 }
 
 #sign-up-why li {
-    margin-top: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
+    padding: 10px;
     background-color: #B9ff66;
 
 }
 
 #sign-up-form {
     margin-top: 20px;
-    background-color: #B9ff66;
-    font-family: Montserrat;
-    margin-top: 50px;
+    background-color: orange;
 }
 
 #sign-up-form-detail {
