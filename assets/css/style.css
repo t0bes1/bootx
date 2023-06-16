@@ -10,23 +10,32 @@
   padding: 0;
 }
 
+:root {
+    --primary-ff:'Black Ops One', sans-serif; 
+    --secondary-ff: Montserrat, sans-serif;
+
+    --primary-clr: black;
+    --secondary-clr: #B9ff66;
+}
+
+
 h1, h2 {
-    font-family: 'Black Ops One';
+    font-family: var(--primary-ff);
     padding: 2%;
 }
 
 p {
-    font-family: Montserrat;
+    font-family: var(--secondary-ff);
     font-size: 120%;
 }
 
 li {
-    font-family: Montserrat;
+    font-family: var(--secondary-ff);
 }
 
 a, a:visited {
     text-decoration: none;
-    color: #B9ff66;
+    color: var(--secondary-clr);
 }
 
 /*header*/
@@ -34,12 +43,12 @@ a, a:visited {
 #top-bar {
     height: 150px;
     margin-top: 30px;
-    background-color: black;
+    background-color: var(--primary-clr);
     position: relative;
 }
 
 #navbar {
-    color: #B9ff66;
+    color: var(--secondary-clr);
     font-size: 125%;
     width: 300px;
     height: 150px;
@@ -63,7 +72,7 @@ a, a:visited {
 }
 
 #navbar a:hover {
-    border-bottom: 5px solid #3a3a3a;
+    border-bottom: 2px solid var(--secondary-clr);
 }
 
 #logo {
@@ -108,10 +117,10 @@ a, a:visited {
     height: 300px;
     width: 300px;
     text-align: center;
-    font-family: 'Black Ops One';
+    font-family: var(--primary-ff);
 
     padding: 20px;
-    background-color: #B9ff66;
+    background-color: var(--secondary-clr);
     opacity: 0.5;
     
     position: absolute;
@@ -121,7 +130,7 @@ a, a:visited {
 
 #hero-cover-text h3 {
     text-align: center;
-    font-family: Montserrat;
+    font-family: var(--secondary-ff);
     font-size: 150%;
     padding: 20px;
 }
@@ -132,7 +141,7 @@ a, a:visited {
     height: 300px;
     width: 100%;
     margin-top: 25px;
-    background: #B9ff66;
+    background: var(--secondary-clr);
 
     display: flex;
     justify-content: center;
@@ -141,7 +150,7 @@ a, a:visited {
 .about-block {
     height: 100%;
     width: 400px;
-    font-family: 'Black Ops One';
+    font-family: var(--primary-ff);
     margin-left: 10px;
     text-align: center;
     padding: 1%;
@@ -161,7 +170,7 @@ a, a:visited {
 .top-boots-block {
     height: 100%;
     width: 400px;
-    font-family: 'Black Ops One';
+    font-family: var(--primary-ff);
     margin-left: 10px;
     text-align: center;
     padding: 1%;
@@ -194,6 +203,18 @@ a, a:visited {
     margin-top: 100px;
 }
 
+#top-boots-price-premium {
+    font-size: 150%;
+    background-color: silver;
+    border: darkgrey;
+    border-width: 5px;
+    border-style: solid;
+    padding: 5%;
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 100px;
+    }
+
 /*sign up container*/
 
 #sign-up-container {
@@ -204,7 +225,7 @@ a, a:visited {
 }
 
 #sign-up-container h3 {
-    font-family: 'Black Ops One';
+    font-family: var(--primary-ff);
     font-size: 150%;
     margin-left: 100px;
     padding-top: 40px;
@@ -213,7 +234,7 @@ a, a:visited {
 
 #sign-up-container li {
     margin-left: 100px;
-    font-family: Montserrat;
+    font-family: var(--secondary-ff);
     font-size: 120%;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -221,7 +242,7 @@ a, a:visited {
 
 .sign-up-button {
   appearance: none;
-  background-color: #000000;
+  background-color: var(--primary-clr);
   border: 2px solid #1A1A1A;
   border-radius: 15px;
   box-sizing: border-box;
@@ -269,7 +290,7 @@ a, a:visited {
     height: 200px;
     width: 100%;
     margin-top: 10px;
-    background-color: #B9ff66;
+    background-color: var(--secondary-clr);
 }
 
 #sign-up-why {
@@ -292,7 +313,7 @@ a, a:visited {
     Height: 450px;
     margin-top: 20px;
     margin-left: 150px;
-    font-family: Montserrat;
+    font-family: var(--secondary-ff);
     margin-top: 50px;
     
     display: flex;
@@ -302,12 +323,15 @@ a, a:visited {
 
 .text-input {
     border-style: solid;
-    border-color: #B9ff66;
+    border-color: var(--secondary-clr);
     border-width: 5px;
     padding: 10px;
     width: 300px;
 }
 
+#sign-up-success {
+    margin-left: 30px;
+}
 
 /*footer*/
 
@@ -323,7 +347,7 @@ main {
 
 footer {
     height: 150px;
-    background-color: black;
+    background-color: var(--primary-clr);
 }
 
 .social-container {
@@ -336,17 +360,17 @@ footer {
 .social-links {
     width: 100px;
     height: 50px;
-    background-color: black;
+    background-color: var(--primary-clr);
     text-align: center;
     font-size: 300%;
-    color: #B9ff66;
+    color: var(--secondary-clr);
     text-decoration: none;
 }
 
 #footer-copyright {
     text-align: center;
     font-size: 50%;
-    background-color: black;
+    background-color: var(--primary-clr);
     padding-left: 30%;
     padding-right: 30%;
     padding-bottom: 50px;
@@ -358,12 +382,12 @@ footer {
 /* For larger to medium screens size from 800px wide and down */
 @media screen and (max-width: 800px) {
     #top-bar {
-        background-color: black;
+        background-color: var(--primary-clr);
         position: relative;
     }
     
     #navbar {
-        color: #B9ff66;
+        color: var(--secondary-clr);
         font-size: 125%;
         width: 100%;
         height: 150px;
@@ -382,10 +406,10 @@ footer {
         height: 200px;
         width: 200px;
         text-align: center;
-        font-family: 'Black Ops One';
+        font-family: var(--primary-ff);
     
         padding: 20px;
-        background-color: #B9ff66;
+        background-color: var(--secondary-clr);
         opacity: 0.5;
         
         position: absolute;
@@ -395,7 +419,7 @@ footer {
     
     #hero-cover-text h3 {
         text-align: center;
-        font-family: Montserrat;
+        font-family: var(--secondary-ff);
         font-size: 100%;
         padding: 5px;
     }
@@ -404,7 +428,7 @@ footer {
         height: 750px;
         width: 100%;
         margin-top: 25px;
-        background: #B9ff66;
+        background: var(--secondary-clr);
     
         display: flex;
         justify-content: center;
@@ -414,7 +438,7 @@ footer {
     .about-block {
         height: 100%;
         width: 100%;
-        font-family: 'Black Ops One';
+        font-family: var(--primary-ff);
         margin-left: 0;
         text-align: center;
         padding: 5%;
@@ -433,7 +457,7 @@ footer {
     .top-boots-block {
         height: 100%;
         width: 100%;
-        font-family: 'Black Ops One';
+        font-family: var(--primary-ff);
         margin-left: 0;
         text-align: center;
         padding: 5%;
@@ -455,11 +479,11 @@ footer {
         width: 100%;
         margin-bottom: 20px;
         background: none;
-        background-color: #B9ff66;
+        background-color: var(--secondary-clr);
     }
     
     #sign-up-container h3 {
-        font-family: 'Black Ops One';
+        font-family: var(--primary-ff);
         font-size: 150%;
         text-align: center;
         padding-top: 40px;
@@ -467,7 +491,7 @@ footer {
         margin-left: 40px;
     }
     #sign-up-container li {
-        font-family: Montserrat;
+        font-family: var(--secondary-ff);
         font-size: 120%;
         margin-top: 10px;
         margin-bottom: 10px;
