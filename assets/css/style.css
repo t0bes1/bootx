@@ -11,7 +11,8 @@
 }
 
 h1, h2 {
-    padding: 5%;
+    font-family: 'Black Ops One';
+    padding: 3%;
 }
 
 p {
@@ -227,7 +228,7 @@ a, a:visited {
   color: #FFFFFF;
   cursor: pointer;
   display: inline-block;
-  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-family: Montserrat,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
   font-size: 16px;
   font-weight: 600;
   line-height: normal;
@@ -261,6 +262,44 @@ a, a:visited {
   box-shadow: none;
   transform: translateY(0);
 }
+
+/* sign up page */
+
+#sign-up-section {
+    margin-top: 20px;
+    background-color: #B9ff66;
+}
+
+#sign-up-why {
+
+    background-color: #B9ff66;
+
+}
+
+#sign-up-why li {
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #B9ff66;
+
+}
+
+#sign-up-form {
+    margin-top: 20px;
+    background-color: #B9ff66;
+    font-family: Montserrat;
+    margin-top: 50px;
+}
+
+#sign-up-form-detail {
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #B9ff66;
+    font-family: Montserrat;
+    margin-top: 50px;
+}
+
 
 /*footer*/
 
@@ -304,6 +343,7 @@ footer {
     padding-right: 30%;
     padding-bottom: 50px;
 }
+
 
 /* Media queries */
 
