@@ -314,7 +314,6 @@ a, a:visited {
     margin-top: 20px;
     margin-left: 150px;
     font-family: var(--secondary-ff);
-    margin-top: 50px;
     
     display: flex;
     flex-direction: column;
@@ -327,10 +326,6 @@ a, a:visited {
     border-width: 5px;
     padding: 10px;
     width: 300px;
-}
-
-#sign-up-success {
-    margin-left: 30px;
 }
 
 /*footer*/
@@ -499,6 +494,27 @@ footer {
     }
 
     .sign-up-button {
-        margin-left: 40px;
+        margin-left: 20px;
+    }
+
+    #sign-up-section {
+        height: 200px;
+
+    }
+
+    #sign-up-why {
+        margin-left: 20px;
+    }   
+
+    #sign-up-why li {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 85%;
+    }
+
+
+    #sign-up-form-detail {
+        Height: 450px;
+        margin-left: 20px;
     }
 }
