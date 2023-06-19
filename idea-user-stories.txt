@@ -7,8 +7,8 @@ Bootx is a re-seller of old childrens football boots. Parents can buy, sell or d
 
 User Stories:
 
-As a user I want to be able to undertsand Bootx, why it exists and the benefits of using the service
+As a user I want to be able to undertsand Bootx, why it exists and its benefits, so that I can determine whether I would like to use the service
 
-As a user I want to be able to browse some of the best boots available for purchase
+As a user I want to be able to browse some of the best boots available for purchase, so that I can see the types of boots available for sale and determine whether I would like to use the service
 
-As a user I want to be able to sign up to receive notifications about boots that are becoming available for
+As a user I want to be able to sign up to receive notifications about boots that are becoming available for sale, so that I can see boots relevant to me and determine whether I would like to make a purchase
