@@ -1,6 +1,8 @@
-/*generic css*/
+/*font imports per the brand guide*/
 
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Montserrat&display=swap');
+
+/*generic browser rules*/
 
 *,
 *::before,
@@ -10,6 +12,8 @@
   padding: 0;
 }
 
+/*variable controls*/
+
 :root {
     --primary-ff:'Black Ops One', sans-serif; 
     --secondary-ff: Montserrat, sans-serif;
@@ -17,6 +21,8 @@
     --primary-clr: black;
     --secondary-clr: #B9ff66;
 }
+
+/*holistic style rules*/
 
 
 h1, h2 {
@@ -47,7 +53,13 @@ a, a:visited {
     position: relative;
 }
 
-#navbar {
+#logo {
+    height: 150px;
+    width: 150px;
+    margin-left: 250px;
+}
+
+#nav-bar {
     color: var(--secondary-clr);
     font-size: 125%;
     width: 300px;
@@ -59,28 +71,22 @@ a, a:visited {
     bottom: 0;
 }
 
-#navbar li {
+#nav-bar li {
     list-style-type: none;
     display: flex;
     justify-content: right;
     padding: 1%;
 }
 
-#navbar a {
+#nav-bar a {
     text-decoration: none;
     color: inherit;
 }
 
-#navbar a:hover {
+#nav-bar a:hover {
     border-bottom: 2px solid var(--secondary-clr);
 }
 
-#logo {
-    height: 150px;
-    width: 150px;
-    margin-left: 250px;
-    
-}
 /*Hero*/
 
 #hero-outer {
@@ -191,7 +197,7 @@ a, a:visited {
     max-height: 100%;
 }
 
-#top-boots-price-info {
+#top-boots-price-basic {
     font-size: 150%;
     background-color: orange;
     border: darkorange;
@@ -380,7 +386,11 @@ footer {
         position: relative;
     }
     
-    #navbar {
+    #logo {
+        margin-left: 10px;
+    }
+
+    #nav-bar {
         font-size: 125%;
         width: 100%;
         height: 150px;
@@ -389,10 +399,6 @@ footer {
         position: absolute;
         right: 10px;
         bottom: 0;
-    }
-
-    #logo {
-        margin-left: 10px;
     }
 
     #hero-cover-text {
@@ -431,9 +437,9 @@ footer {
     }
 
     #top-boots-section {
-        height: 1000px;
+        height: 100%;
         width: 100%;
-        margin-top: 25px;
+        margin-top: 5px;
     
         display: flex;
         justify-content: center;
@@ -448,14 +454,22 @@ footer {
         padding: 5%;
     }
 
-
-    #top-boots-price-info {
+    #top-boots-price-basic {
         font-size: 150%;
         padding: 0;
         width: 100%;
         margin-left: 0;
         margin-top: 0;
-        margin-bottom: 30px;
+        margin-bottom: 0;
+    }
+
+    #top-boots-price-premium {
+        font-size: 150%;
+        padding: 0;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 
     #sign-up-container {
@@ -485,7 +499,6 @@ footer {
 
     #sign-up-section {
         height: 200px;
-
     }
 
     #sign-up-why {
@@ -498,7 +511,6 @@ footer {
         font-size: 85%;
     }
 
-
     #sign-up-form-detail {
         Height: 450px;
         margin-left: 20px;
@@ -508,5 +520,72 @@ footer {
         width: 50px;
         height: 20px;
         font-size: 150%;
+    }
+}
+
+/* For medium to larger screens size from 1200 px to 800px wide */
+@media screen and (max-width: 1200px) {
+    
+    #top-bar {
+        position: relative;
+    }
+
+    #logo {
+        margin-left: 50px;
+    }
+
+    #nav-bar {
+        position: absolute;
+        right: 100px;
+        bottom: 0;
+    }
+
+    #hero-cover-text {
+        position: absolute;
+        right: 50px;
+    }
+
+    .about-block {
+        width: 300px;
+        margin-left: 10px;
+        font-size: 90%;
+    }
+
+    .top-boots-block {
+        height: 100%;
+        width: 300px;
+        margin-left: 10px;
+        font-size: 90%;
+    }
+
+    #top-boots-price-basic {
+        margin-left: 20px;
+        }
+
+    #top-boots-price-premium {
+        margin-left: 20px;
+        }
+
+    #sign-up-container {
+        background: none;
+        background-color: var(--secondary-clr)
+    }
+
+    #sign-up-section {
+        height: 250px;
+    }
+
+    #sign-up-why {
+        margin-left: 50px;
+    }   
+
+    #sign-up-why li {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    #sign-up-form-detail {
+        Height: 450px;
+        margin-left: 50px;
     }
 }

@@ -16,7 +16,7 @@
     <header>
         <section id="top-bar">
             <div><img id="logo" src="assets/images/bootx-logo.jpg" alt="Bootx company logo">
-            <nav id="navbar"><ul>
+            <nav id="nav-bar"><ul>
                     <li><a href="index.html" class="active">Home</a></li>
                     <li><a href="top-boots.html" class="active">Top Boots</a></li>
                     <li><a href="sign-up.html" class="active">Sign Up</a></li>
@@ -27,20 +27,20 @@
     </header>
     <main>
     <!-- Why sign up section for users to understand the benefits of signing up to the service-->
-        <section id="sign-up-section">
-    <div id="sign-up-why">
-        <h1>Why Sign Up? <i class="fa-solid fa-user-plus"></i></h1>
-        <ul>
-            <li>Get a full list of boots that will fit your kids. We will email you a fun down of all available boots in the specified size.</li>
-            <li>Get notifications when new boots become available. When new stock arrives we'll let you know. An email alert will be sent to you with the boots you're looking for.</li>
-        </ul>
-    </div>
+    <section id="sign-up-section">
+        <div id="sign-up-why">
+            <h1>Why Sign Up? <i class="fa-solid fa-user-plus"></i></h1>
+            <ul>
+                <li>Get a full list of boots that will fit your kids. We will email you a fun down of all available boots in the specified size.</li>
+                <li>Get notifications when new boots become available. When new stock arrives we'll let you know. An email alert will be sent to you with the boots you're looking for.</li>
+            </ul>
+        </div>
     </section>
     <!-- Sign up form for users to input details so that they can benefit from the service -->
     <section id="sign-up-form">
         <form id="sign-up-form-detail" method="GET">
-        <h3>Sign Up Here:</h3>    
-        <strong id="sign-up-success"></strong>
+            <h3>Sign Up Here:</h3>    
+            <strong id="sign-up-success"></strong>
     <!-- sign up "success" script -->
         <script>
             function myFunction() {
@@ -48,12 +48,12 @@
             }
         </script>
         
-        <label for="full-name">Full Name :</label>
-        <input id="full-name" class="text-input" name="fname" type="text" required>
-        <label for="email">Email Address :</label>
-        <input id="email" class="text-input" name="fname" type="email" required>
-        <label for="kidsage">Kids Age :</label>
-        <input id="kidsage" class="text-input" name="kidsage" type="value" required>
+            <label for="full-name">Full Name :</label>
+            <input id="full-name" class="text-input" name="fname" type="text" required>
+            <label for="email">Email Address :</label>
+            <input id="email" class="text-input" name="fname" type="email" required>
+            <label for="kidsage">Kids Age :</label>
+            <input id="kidsage" class="text-input" name="kidsage" type="value" required>
         <div><input type="submit" class="sign-up-button" class="closebtn" onclick="myFunction()" </div>
         </form>
     </section>
