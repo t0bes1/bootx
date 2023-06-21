@@ -3,29 +3,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Montserrat&display=swap');
 
 /*generic browser rules*/
-
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 /*variable controls*/
-
 :root {
-    --primary-ff:'Black Ops One', sans-serif; 
+    --primary-ff: 'Black Ops One', sans-serif;
     --secondary-ff: Montserrat, sans-serif;
-
     --primary-clr: black;
     --secondary-clr: #B9ff66;
 }
 
 /*holistic style rules*/
-
-
-h1, h2 {
+h1,
+h2 {
     font-family: var(--primary-ff);
     padding: 2%;
 }
@@ -39,7 +35,8 @@ li {
     font-family: var(--secondary-ff);
 }
 
-a, a:visited {
+a,
+a:visited {
     text-decoration: none;
     color: var(--secondary-clr);
 }
@@ -65,7 +62,7 @@ a, a:visited {
     width: 300px;
     height: 150px;
     padding-top: 30px;
-    
+
     position: absolute;
     right: 300px;
     bottom: 0;
@@ -111,10 +108,11 @@ a, a:visited {
 
 /* creates zoom for hero image */
 @keyframes hero-zoom {
-    from{
+    from {
         transform: scale(1);
     }
-    to{
+
+    to {
         transform: scale(1.2);
     }
 }
@@ -128,7 +126,7 @@ a, a:visited {
     padding: 20px;
     background-color: var(--secondary-clr);
     opacity: 0.5;
-    
+
     position: absolute;
     right: 200px;
     bottom: 20px;
@@ -219,7 +217,7 @@ a, a:visited {
     width: 200px;
     margin-left: 100px;
     margin-top: 100px;
-    }
+}
 
 /*sign up container*/
 
@@ -247,47 +245,47 @@ a, a:visited {
 }
 
 .sign-up-button {
-  appearance: none;
-  background-color: var(--primary-clr);
-  border: 2px solid #1A1A1A;
-  border-radius: 15px;
-  box-sizing: border-box;
-  color: #FFFFFF;
-  cursor: pointer;
-  display: inline-block;
-  font-family: Montserrat,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-  font-size: 16px;
-  font-weight: 600;
-  line-height: normal;
-  margin-left: 100px;
-  margin-top: 20px;
-  min-height: 60px;
-  min-width: 0;
-  max-width: 300px;
-  outline: none;
-  padding: 16px 24px;
-  text-align: center;
-  text-decoration: none;
-  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  width: 100%;
-  will-change: transform;
+    appearance: none;
+    background-color: var(--primary-clr);
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 100px;
+    margin-top: 20px;
+    min-height: 60px;
+    min-width: 0;
+    max-width: 300px;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 100%;
+    will-change: transform;
 }
 
 .sign-up-button:disabled {
-  pointer-events: none;
+    pointer-events: none;
 }
 
 .sign-up-button:hover {
-  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
-  transform: translateY(-2px);
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
 }
 
 .sign-up-button:active {
-  box-shadow: none;
-  transform: translateY(0);
+    box-shadow: none;
+    transform: translateY(0);
 }
 
 /* sign up page */
@@ -308,7 +306,7 @@ a, a:visited {
     margin-right: 100px;
     padding: 10px;
     font-size: 120%;
- }
+}
 
 #sign-up-form {
     margin-top: 10px;
@@ -320,7 +318,7 @@ a, a:visited {
     margin-top: 20px;
     margin-left: 150px;
     font-family: var(--secondary-ff);
-    
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -340,11 +338,11 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-  }
+}
 
 main {
     flex: 1 0 auto;
-  }
+}
 
 footer {
     height: 150px;
@@ -356,7 +354,7 @@ footer {
     justify-content: center;
     margin-top: 50px;
     margin-bottom: 50px;
-}   
+}
 
 .social-links {
     width: 100px;
@@ -385,7 +383,7 @@ footer {
     #top-bar {
         position: relative;
     }
-    
+
     #logo {
         margin-left: 10px;
     }
@@ -395,7 +393,7 @@ footer {
         width: 100%;
         height: 150px;
         padding-top: 30px;
-        
+
         position: absolute;
         right: 10px;
         bottom: 0;
@@ -405,14 +403,14 @@ footer {
         height: 200px;
         width: 200px;
         text-align: center;
-    
+
         padding: 20px;
-        
+
         position: absolute;
         right: 10px;
         top: 20px;
     }
-    
+
     #hero-cover-text h3 {
         font-size: 100%;
         padding: 5px;
@@ -422,7 +420,7 @@ footer {
         height: 750px;
         width: 100%;
         margin-top: 25px;
-    
+
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -440,11 +438,11 @@ footer {
         height: 100%;
         width: 100%;
         margin-top: 5px;
-    
+
         display: flex;
         justify-content: center;
         flex-direction: column;
-    }    
+    }
 
     .top-boots-block {
         height: 100%;
@@ -479,7 +477,7 @@ footer {
         background: none;
         background-color: var(--secondary-clr)
     }
-    
+
     #sign-up-container h3 {
         font-size: 150%;
         text-align: center;
@@ -487,6 +485,7 @@ footer {
         padding-bottom: 10px;
         margin-left: 0;
     }
+
     #sign-up-container li {
         margin-top: 10px;
         margin-bottom: 10px;
@@ -503,7 +502,7 @@ footer {
 
     #sign-up-why {
         margin-left: 20px;
-    }   
+    }
 
     #sign-up-why li {
         margin-left: 20px;
@@ -525,7 +524,7 @@ footer {
 
 /* For medium to larger screens size from 1200 px to 800px wide */
 @media screen and (max-width: 1200px) {
-    
+
     #top-bar {
         position: relative;
     }
@@ -560,11 +559,11 @@ footer {
 
     #top-boots-price-basic {
         margin-left: 20px;
-        }
+    }
 
     #top-boots-price-premium {
         margin-left: 20px;
-        }
+    }
 
     #sign-up-container {
         background: none;
@@ -577,7 +576,7 @@ footer {
 
     #sign-up-why {
         margin-left: 50px;
-    }   
+    }
 
     #sign-up-why li {
         margin-left: 50px;

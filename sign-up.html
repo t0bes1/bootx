@@ -1,84 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Bootx is the place to buy sell or donate pre-loved boots for your kids">
     <meta name="keywords" content="boots, football, buy, sell, donate, children, kids">
+    <meta name="author" content="Toby Bentall">
 
     <link rel="stylesheet" href="assets/css/style.css">
 
     <title>Bootx - Buy, Sell, Dontate kids football boots</title>
 </head>
+
 <body>
     <!-- header with logo & navigation -->
     <header>
         <section id="top-bar">
             <div><img id="logo" src="assets/images/bootx-logo.jpg" alt="Bootx company logo">
-            <nav id="nav-bar"><ul>
-                    <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="top-boots.html" class="active">Top Boots</a></li>
-                    <li><a href="sign-up.html" class="active">Sign Up</a></li>
-            </ul>
-            </nav>
+                <nav id="nav-bar">
+                    <ul>
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="top-boots.html" class="active">Top Boots</a></li>
+                        <li><a href="sign-up.html" class="active">Sign Up</a></li>
+                    </ul>
+                </nav>
             </div>
         </section>
     </header>
     <main>
-    <!-- Why sign up section for users to understand the benefits of signing up to the service-->
-    <section id="sign-up-section">
-        <div id="sign-up-why">
-            <h1>Why Sign Up? <i class="fa-solid fa-user-plus"></i></h1>
-            <ul>
-                <li>Get a full list of boots that will fit your kids. We will email you a fun down of all available boots in the specified size.</li>
-                <li>Get notifications when new boots become available. When new stock arrives we'll let you know. An email alert will be sent to you with the boots you're looking for.</li>
-            </ul>
-        </div>
-    </section>
-    <!-- Sign up form for users to input details so that they can benefit from the service -->
-    <section id="sign-up-form">
-        <form id="sign-up-form-detail" method="GET">
-            <h3>Sign Up Here:</h3>    
-            <strong id="sign-up-success"></strong>
-    <!-- sign up "success" script -->
-        <script>
-            function myFunction() {
-              document.getElementById("sign-up-success").innerHTML = "Success!";
-            }
-        </script>
-        
-            <label for="full-name">Full Name :</label>
-            <input id="full-name" class="text-input" name="fname" type="text" required>
-            <label for="email">Email Address :</label>
-            <input id="email" class="text-input" name="fname" type="email" required>
-            <label for="kidsage">Kids Age :</label>
-            <input id="kidsage" class="text-input" name="kidsage" type="value" required>
-        <div><input type="submit" class="sign-up-button" class="closebtn" onclick="myFunction()" </div>
-        </form>
-    </section>
-</main>
-    <!-- footer with social links & copyright info -->
-    <footer>
-        <div class="container">
-              </div>
-              <div class="social-container">
-                <div class="social-links"><a href="https://facebook.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a></div> 
-                <div class="social-links"><a href="https://twitter.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a></div>
-                <div class="social-links"><a href="https://youtube.com" target="_blank" rel="noopener"
-                    aria-label="Visit our YouTube page (opens in a new tab)"><i class="fab fa-youtube-square"></i></a></div>
-                <div class="social-links"><a href="https://instagram.com/Bootx.it" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></div>
-              </div>
+        <!-- Why sign up section for users to understand the benefits of signing up to the service-->
+        <section id="sign-up-section">
+            <div id="sign-up-why">
+                <h1>Why Sign Up? <i class="fa-solid fa-user-plus"></i></h1>
+                <ul>
+                    <li>Get a full list of boots that will fit your kids. We will email you a fun down of all available
+                        boots in the specified size.</li>
+                    <li>Get notifications when new boots become available. When new stock arrives we'll let you know. An
+                        email alert will be sent to you with the boots you're looking for.</li>
+                </ul>
             </div>
-          </div>
-          <div id="footer-copyright"><p>© Copyright: except as permitted by the copyright law applicable to you, you may not reproduce or communicate any of the content on this website, including files downloadable from this website, without the permission of the copyright owner.</p>
-          </div>
-    </footer>
+        </section>
+        <!-- Sign up form for users to input details so that they can benefit from the service -->
+        <section id="sign-up-form">
+            <form id="sign-up-form-detail" method="GET">
+                <h3>Sign Up Here:</h3>
+                <strong id="sign-up-success"></strong>
+                <!-- sign up "success" script -->
+                <script>
+                    function myFunction() {
+                        document.getElementById("sign-up-success").innerHTML = "Success!";
+                    }
+                </script>
 
-    <!-- font awesome script -->
-    <script src="https://kit.fontawesome.com/042d21b2dd.js" crossorigin="anonymous"></script>
+                <label for="full-name">Full Name :</label>
+                <input id="full-name" class="text-input" name="fname" type="text" required>
+                <label for="email">Email Address :</label>
+                <input id="email" class="text-input" name="fname" type="email" required>
+                <label for="kidsage">Kids Age :</label>
+                <input id="kidsage" class="text-input" name="kidsage" type="value" required>
+                <div><input type="submit" class="sign-up-button" class="closebtn" onclick="myFunction()" </div> </form>
+                        </section> </main> <!-- footer with social links & copyright info -->
+                    <footer>
+                        <div class="container">
+                            <div>
+                                <div class="social-container">
+                                    <div class="social-links"><a href="https://facebook.com" target="_blank"
+                                            rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i
+                                                class="fab fa-facebook"></i></a></div>
+                                    <div class="social-links"><a href="https://twitter.com" target="_blank"
+                                            rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)"><i
+                                                class="fab fa-twitter-square"></i></a></div>
+                                    <div class="social-links"><a href="https://youtube.com" target="_blank"
+                                            rel="noopener" aria-label="Visit our YouTube page (opens in a new tab)"><i
+                                                class="fab fa-youtube-square"></i></a></div>
+                                    <div class="social-links"><a href="https://instagram.com/Bootx.it" target="_blank"
+                                            rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i
+                                                class="fab fa-instagram"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="footer-copyright">
+                            <p>© Copyright: except as permitted by the copyright law applicable to you, you may not
+                                reproduce or communicate any of the content on this website, including files
+                                downloadable from this website, without the permission of the copyright owner.</p>
+                        </div>
+                    </footer>
+
+                    <!-- font awesome script -->
+                    <script src="https://kit.fontawesome.com/042d21b2dd.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
