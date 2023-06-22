@@ -268,7 +268,7 @@ a:hover {
     cursor: pointer;
     display: inline-block;
     font-family: var(--secondary-ff);
-    font-size: 120%;
+    font-size: 80%;
     font-weight: 600;
     line-height: normal;
     outline: none;
@@ -396,9 +396,8 @@ footer {
         font-size: 90%;
     }
 
-    #sign-up-container {
-        background: none;
-        background-color: var(--secondary-clr)
+    .top-boots-block {
+        font-size: 90%;
     }
 }
 
@@ -428,7 +427,8 @@ footer {
 
     #about-section {
         width: 100%;
-        margin-top: 25px;
+        margin-top: 5px;
+        font-size: 85%;
 
         display: flex;
         justify-content: center;
@@ -437,8 +437,7 @@ footer {
 
     .about-block {
         width: 100%;
-        text-align: center;
-        padding: 5%;
+        font-size: 85%;
     }
 
     #top-boots-section {
@@ -452,39 +451,27 @@ footer {
 
     .top-boots-block {
         width: 100%;
-        text-align: center;
-        padding: 5%;
+        font-size: 85%;
+
 
         display: flex;
         justify-content: center;
         flex-direction: column;
     }
 
-    #sign-up-container {
-        width: 100%;
-        margin-bottom: 20px;
-        background: none;
-        background-color: var(--secondary-clr)
+    #sign-up-reasons {
+        width: 80%;
     }
 
-    #sign-up-container h3 {
-        font-size: 150%;
-        text-align: center;
-        padding-top: 40px;
-        padding-bottom: 10px;
+    #sign-up-link {
+        width: 80%;
     }
 
-    #sign-up-container li {
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    #sign-up-why li {
+    #sign-up-container p {
         font-size: 85%;
     }
 
-    .social-links {
-        width: 50px;
-        font-size: 100%;
+    .social-container a {
+        font-size: 200%;
     }
 }
