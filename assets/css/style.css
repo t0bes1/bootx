@@ -23,7 +23,7 @@
 h1,
 h2 {
     font-family: var(--primary-ff);
-    padding: 2%;
+    padding: 1em;
 }
 
 p {
@@ -92,8 +92,8 @@ a:hover {
 #hero-outer {
     height: 400px;
     width: 100%;
-    padding: 20px;
     margin-top: 20px;
+    margin-bottom: 20px;
 
     overflow: hidden;
     position: relative;
@@ -102,7 +102,8 @@ a:hover {
 #hero-image {
     height: 400px;
     width: 100%;
-    background: url(../images/boots-image-hero-sized.jpg) no-repeat center center;
+    background: url(../images/boots-image-hero-medium.jpg) no-repeat center center;
+    background-position: bottom;
 
     animation-name: hero-zoom;
     animation-duration: 5s;
@@ -126,26 +127,29 @@ a:hover {
     text-align: center;
     font-family: var(--primary-ff);
 
-    padding: 20px;
+    padding: 2%;
     background-color: var(--secondary-clr);
     opacity: 0.5;
 
     position: absolute;
-    right: 200px;
-    bottom: 20px;
+    right: 5%;
+    bottom: 10%;
+}
+
+#hero-cover-text h2 {
+    font-size: 200%;
 }
 
 #hero-cover-text h3 {
     text-align: center;
     font-family: var(--secondary-ff);
     font-size: 150%;
-    padding: 20px;
+    padding: 2%;
 }
 
 /*about*/
 #about-section {
     width: 100%;
-    margin-top: 25px;
     background: var(--secondary-clr);
 
     display: flex;
@@ -242,6 +246,13 @@ a:hover {
     padding: 1%;
 }
 
+#sign-up-link a {
+    background-color: var(--primary-clr);
+    padding: 1.5em;
+    font-family: var(--secondary-ff);
+    font-size: 150%;
+}
+
 #sign-up-container h3 {
     font-family: var(--primary-ff);
     font-size: 150%;
@@ -258,6 +269,55 @@ a:hover {
     height: 20%;
 }
 
+/* sign up page */
+#sign-up-section {
+    width: 100%;
+    margin-top: 10px;
+    background-color: var(--secondary-clr);
+    margin-bottom: 10px;
+}
+
+#sign-up-why {
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+}
+
+#sign-up-why li {
+    font-size: 120%;
+    margin-left: 5%;
+    padding: 0.5%;
+}
+
+#sign-up-form {
+    padding: 3em;
+}
+
+#sign-up-form-detail {
+    font-family: var(--secondary-ff);
+    margin-left: 5%;
+    max-width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#sign-up-form-detail h3 {
+    margin-bottom: 20px;
+}
+
+.text-input {
+    border-style: solid;
+    border-color: var(--secondary-clr);
+    border-width: 5px;
+    padding: 1em;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    max-width: 400px;
+    min-width: 200px;
+}
+
 .sign-up-button {
     appearance: none;
     background-color: var(--primary-clr);
@@ -268,10 +328,11 @@ a:hover {
     cursor: pointer;
     display: inline-block;
     font-family: var(--secondary-ff);
-    font-size: 80%;
+    font-size: 120%;
     font-weight: 600;
     line-height: normal;
     outline: none;
+    margin-top: 20px;
     padding: 16px 24px;
     text-align: center;
     text-decoration: none;
@@ -279,7 +340,8 @@ a:hover {
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    width: 100%;
+    max-width: 400px;
+    min-width: 200px;
     will-change: transform;
 }
 
@@ -297,48 +359,11 @@ a:hover {
     transform: translateY(0);
 }
 
-/* sign up page */
-#sign-up-section {
-    width: 100%;
-    margin-top: 10px;
+#sign-up-confirmed {
     background-color: var(--secondary-clr);
-}
-
-#sign-up-why {
-    background-color: aqua;
-    padding-left: 5%;
-}
-
-#sign-up-why li {
-    padding: 1em;
-    font-size: 120%;
-}
-
-#sign-up-form {
-    padding: 3em;
-    background-color: blue;
-}
-
-#sign-up-form-detail {
-    font-family: var(--secondary-ff);
-    padding: 2em;
-    background-color: chocolate;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.text-input {
-    border-style: solid;
-    border-color: var(--secondary-clr);
-    border-width: 5px;
-    padding: 1em;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    max-width: 400px;
-    min-width: 200px;
-    width: 50%;
+    text-align: center;
+    padding: 2%;
+    margin-bottom: 500px;
 }
 
 /*footer*/
@@ -383,20 +408,15 @@ footer {
 /* For medium to larger screens size from 1200 px to 800px wide */
 @media screen and (max-width: 1200px) {
 
-    #top-bar {
-        position: relative;
-    }
-
-    #hero-cover-text {
-        position: absolute;
-        right: 10%;
-    }
-
     .about-block {
         font-size: 90%;
     }
 
     .top-boots-block {
+        font-size: 90%;
+    }
+
+    #sign-up-why {
         font-size: 90%;
     }
 }
@@ -409,20 +429,15 @@ footer {
     }
 
     #hero-cover-text {
-        height: 200px;
         width: 200px;
-        text-align: center;
+    }
 
-        padding: 20px;
-
-        position: absolute;
-        right: 10px;
-        top: 20px;
+    #hero-cover-text h2 {
+        font-size: 150%;
     }
 
     #hero-cover-text h3 {
         font-size: 100%;
-        padding: 5px;
     }
 
     #about-section {
@@ -468,6 +483,10 @@ footer {
     }
 
     #sign-up-container p {
+        font-size: 85%;
+    }
+
+    #sign-up-why {
         font-size: 85%;
     }
 
