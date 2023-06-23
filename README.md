@@ -1,4 +1,4 @@
-![Bootx logo](../assets/)
+![Bootx logo](../assets/images/bootx-logo.jpg)
 
 ---
 
