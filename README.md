@@ -48,15 +48,13 @@ As a user I want to be able to sign up to receive notifications about boots that
 
     - Hero section has a zooming background image.
 
-    - Hero section have the block section below the image that consist:
-
-        * Short description of the company's philosophy
+    - Hero section have the block section below the image that consist of a Short description of the company's philosophy.
 
 --- 
 
 + #### About Section
 
-    - gives 3 key reasons why a consumer would want to use the company
+    - gives 3 compelling key reasons why a consumer would want to use the company.
 
     ---
 + #### Top Boots Section
@@ -158,9 +156,9 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
     - Main Page:
 
-    - Gallery Page:
+    - Top Boots Page:
 
-    - Contact Page:
+    - Sign Up Page:
 
     - Response Page:
 
@@ -188,14 +186,13 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 | Twitter icon in the footer | Click on the Twitter icon | The user is redirected to the Twitter page | Yes | Yes | - |
 | YouTube icon in the footer | Click on the YouTube icon | The user is redirected to the YouTube page | Yes | Yes | - |
 | Home page | | | | | |
-| "Sign Up" button in Sign Up section | Click on the "Sign Up" button | The user is redirected to the contact page | Yes | Yes | - |
+| "Sign Up" button in Sign Up section | Click on the "Sign Up" button | The user is redirected to the sign upp page | Yes | Yes | - |
 | Top Boots page | | | | | |
-| "Contact Us" button in Hero section | Click on the "Contact Us" button | The user is redirected to the contact page | Yes | Yes | - |
-| "Sign Up" button in Sign Up section | Click on the "Sign Up" button | The user is redirected to the contact page | Yes | Yes | - |
+| "Sign Up" button in Sign Up section | Click on the "Sign Up" button | The user is redirected to the sign up page | Yes | Yes | - |
 | Sign Up page | | | | | |
-| Full Name input | Enter the full name | The full name is entered | Yes | Yes | If user doesn't enter the first name, the error message appears |
+| Full Name input | Enter the full name | The full name is entered | Yes | Yes | If user doesn't enter the full name, the error message appears |
 | Email input | Enter the email | The email is entered | Yes | Yes | If user doesn't enter the email, the error message appears. If user enters not valid email, the error message appears |
-| Age input | Enter the age | The age is entered | Yes | Yes | If user doesn't enter the first name, the error message appears |
+| Age input | Enter the age | The age is entered | Yes | Yes | If user doesn't enter age, the error message appears |
 | "Submit" button | Click on the "Submit" button | The user is redirected to the response page | Yes | Yes | - |
 | Response page | | | | | |
 | Response message | The user will be automatically redirected to the home page after 5 seconds | The user is redirected to the home page | Yes | Yes | - |
