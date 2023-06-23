@@ -1,9 +1,9 @@
 
 ---
 
-# *Boot x*
+# *Bootx*
 
-Bootx. Buy. Sell. Donate. Bootx is a re-seller of old childrens football boots. Parents can buy, sell or donate their childs pre-loved boots, in order to save money, act sustainably and to rasie a little money for their football club. This website is about showcasing this service, giving a flavour of the inventory and collecting data for marketing.
+"Bootx. Buy. Sell. Donate." Bootx is a re-seller of old childrens football boots. Parents can buy, sell or donate their childs pre-loved boots, in order to save money, act sustainably and to rasie a little money for their football club. This website is about showcasing this service, giving a flavour of the inventory and collecting data for marketing.
 
 The site can be accessed by this [link](https://t0bes1.github.io/bootx/)
 
@@ -24,23 +24,13 @@ As a user I want to be able to sign up to receive notifications about boots that
     - Positioned at the top of the page.
     - Contains logo of the company on the left side.
     - Contains navigation links on the right side:
-        * HOME - leads to the home page where users can learn about the company Animal Shelter.
-        * GALLERY - leads to the gallery page where users can see available animals in the Animal Shelter.
-        * CONTACT - leads to the contact form page where users can fill out the form in order to get in touch with the company.
+        * HOME - leads to the home page where users can learn about the company Bootx.
+        * TOP BOOTS - leads to the tops boots page where users can see available boots.
+        * SIGN UP - leads to a sign up form page where users can fill out the form in order to get updates from the company.
     - The links have animated hover effect.
     - The navigation is clear and easy to understand for the user.
 
-    - The navigation bar is responsive:
-        * On tablets: navigation bar is split into to lines: the first line filled with the logo and the second line filled with links. All elements are centered.
-
-        * On mobile devices: 
-            - navigation bar filled with the logo in the center and a hamburger menu implemented on the left side of the navigation bar.      
-        
-            - When the hamburger menu is clicked, there is dropdown menu with the links in the same order.
-            ![NavBar Mobile Open](documentation/navbar_mobile_open.png)
-
-
-
+    - The navigation bar is responsive
 ---
 
 + ### Home Page
@@ -49,48 +39,42 @@ As a user I want to be able to sign up to receive notifications about boots that
 
         * the main idea of the company.
         * Emphasize the strong points of the company.
-        * Shows feedback from satisfied clients.
-        * Invites to fill out the contact form.
+        * Shows top boots available for sale.
+        * Invites to fill out the sign up form.
 
 ---
 
 + #### Hero Section
 
-    - Hero section have a fixed background image.
+    - Hero section has a zooming background image.
 
     - Hero section have the block section below the image that consist:
 
-        * The name of the company.
-        * Short description of the company's philosophy.
-        * Contact button that leads directly to the contact page.
+        * Short description of the company's philosophy
 
 --- 
 
-+ #### Highlights Section
++ #### About Section
 
-    - Highlight Section has 4 cards with strong descriptive characteristics of the company.
-
-    - Tells website visitors how well animals are in the Animal Shelter.
-
-    - Attracts viewers to use this company for animal adoption.
+    - gives 3 key reasons why a consumer would want to use the company
 
     ---
-+ #### Testimonials Section
++ #### Top Boots Section
 
     - Testimonials Section has three feedbacks from people who were satisfied with the company's service.
 
-    - Each card has a picture of an animal with its owner.
+    - Each top boots has a picture of the boots.
 
-    - Each card has a story from the people who had an experience of using the Animal Shelter.
+    - Each top boots shows a Size and Desctipiion of the pair for sale.
 
-    - Each card has a name of the pet's owner.
+    - Each top boots shows an indicative price, should the customer wish to contact us for purchase.
 
 ---
-+ #### Call to Action Section
++ #### Sign Up Section
 
-    - Call to Action Section has an explicit message for the visitors of the website to contact the company.
+    - The Sign Up Section shows reasons for the usert to want to sign up to the company mailing list.
 
-    - Is also has a button that directs to the contact page.
+    - Is also has a button that directs to the Sign Up page.
 
 ---
 + #### Footer
@@ -98,35 +82,26 @@ As a user I want to be able to sign up to receive notifications about boots that
     - Footer contains social media links that open in a new tab.
 ​
 ---
-+ ### Gallery Page
++ ### Top Boots Page
 
-    - Gallery page has a hero image and an introduction message for the visitors that contains an incentive to contact the company.
+    - The Top Boots page shows 5 pairs of boots available for sale.
 
-    - It has a button right after the introduction message that leads to the contact form page.
+    - Each top boots has a picutre of the boots.
 
-    - It has photos of the animals that a present in the Animal Shelter in real-time.
+    - Each top boots shows a Size and Desctipiion of the pair for sale.
 
-        - The gallery is responsive: the size of the photo depends on the user's screen.
-        - Each image has a description of the animal that appears on hover.
-        - description information contains the name of the animal and its characteristics.
+    - Each top boots shows an indicative price, should the customer wish to contact us for purchase.
 
-    - It has a call to action section below the gallery with the incentivizing message and the button that leads to the contact form.
+    - Each top boots has an orange bar for a "value" price and silver bar for a "premium" price.
 
-    - It has a footer identical to the home page's footer.
 
 ---
-+ ### Contact page
++ ### Sign Up page
 
-    - Contact page has a contact form:
+    - Sign Up page has a form for signing up to the Bootx mailing list:
 
-        - All text input fields are customized.
-        - Labels are animated when the input field is in focus and are not empty.
+        - All input fields are customised.
         - All inputs are set to be required to fill out.
-        - It has to checkboxes for the visitors to fill voluntary:
-
-            - The 1st is - ADAPT, which helps the company to understand the motive of the visitor.
-            - The 2nd is - DONATE, which motivates users to consider financial support for the company. 
-
         - The submit button is animated on hover.
 
     - The page is responsive on all common screen sizes.
@@ -137,8 +112,8 @@ As a user I want to be able to sign up to receive notifications about boots that
 + ### Response page
 
     - Response page appears after submitting the contact form.
-    - It contains the thank you message and the promise to get in touch with the applicant within 24 hours.
-    - It will automatically direct the user to the main page in 10 seconds.
+    - It contains a confrimation message.
+    - It will automatically direct the user to the main page in 5 seconds.
 
 ---
 ## Technologies Used
@@ -156,7 +131,6 @@ As a user I want to be able to sign up to receive notifications about boots that
 ## Design
 
 ### Brand Guide
-
 
 ### Wireframes
 
@@ -198,7 +172,6 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
     - Mobile Screens:
 
-
 + The functionality of the links in the website was checked as well by different users.
 
 ### Manual testing
@@ -207,62 +180,58 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 | --- | --- | --- | --- | --- | --- |
 | Navbar | | | | | |
 | Home | Click on the "Home" link | The user is redirected to the main page | Yes | Yes | - |
-| Gallery | Click on the "Gallery" link | The user is redirected to the gallery page | Yes | Yes | - |
-| Contact | Click on the "Contact" link | The user is redirected to the contact page | Yes | Yes | - |
+| Top Boots | Click on the "Top Boots" link | The user is redirected to the top boots page | Yes | Yes | - |
+| Sign Up | Click on the "Sign Up" link | The user is redirected to the sign up page | Yes | Yes | - |
 | Footer | | | | | |
 | Instagram icon in the footer | Click on the Instagram icon | The user is redirected to the Instagram page | Yes | Yes | - |
 | Facebook icon in the footer | Click on the Facebook icon | The user is redirected to the Facebook page | Yes | Yes | - |
 | Twitter icon in the footer | Click on the Twitter icon | The user is redirected to the Twitter page | Yes | Yes | - |
 | YouTube icon in the footer | Click on the YouTube icon | The user is redirected to the YouTube page | Yes | Yes | - |
 | Home page | | | | | |
+| "Sign Up" button in Sign Up section | Click on the "Sign Up" button | The user is redirected to the contact page | Yes | Yes | - |
+| Top Boots page | | | | | |
 | "Contact Us" button in Hero section | Click on the "Contact Us" button | The user is redirected to the contact page | Yes | Yes | - |
-| "Contact Us" button in Call to action section | Click on the "Contact Us" button | The user is redirected to the contact page | Yes | Yes | - |
-| Gallery page | | | | | |
-| "Contact Us" button in Hero section | Click on the "Contact Us" button | The user is redirected to the contact page | Yes | Yes | - |
-| Image in the gallery | User hover the image | Pet's name and description appear on the image | Yes | Yes | - |
-| "Contact Us" button in Call to action section | Click on the "Contact Us" button | The user is redirected to the contact page | Yes | Yes | - |
-| Contact page | | | | | |
-| First name input | Enter the first name | The first name is entered | Yes | Yes | If user doesn't enter the first name, the error message appears |
-| Last name input | Enter the last name | The last name is entered | Yes | Yes | If user doesn't enter the last name, the error message appears |
+| "Sign Up" button in Sign Up section | Click on the "Sign Up" button | The user is redirected to the contact page | Yes | Yes | - |
+| Sign Up page | | | | | |
+| Full Name input | Enter the full name | The full name is entered | Yes | Yes | If user doesn't enter the first name, the error message appears |
 | Email input | Enter the email | The email is entered | Yes | Yes | If user doesn't enter the email, the error message appears. If user enters not valid email, the error message appears |
-| Adopt and donate checkbox | Click on the checkbox | The checkbox is checked | Yes | Yes | These checkboxes are not required as the user can choose not to adopt or donate and other reasons for contacting |
+| Age input | Enter the age | The age is entered | Yes | Yes | If user doesn't enter the first name, the error message appears |
 | "Submit" button | Click on the "Submit" button | The user is redirected to the response page | Yes | Yes | - |
 | Response page | | | | | |
-| Response message | The user will be automatically redirected to the home page after 10 seconds | The user is redirected to the home page | Yes | Yes | - |
+| Response message | The user will be automatically redirected to the home page after 5 seconds | The user is redirected to the home page | Yes | Yes | - |
 
 ---
 ​
 ### Bugs
 + ##### Solved bugs
-    1. The testimonials pictures had a square shape in Brave browser on a mobile phone when the border radius had been set to 50%. It was due to the outline properties settings instead of the border
+    1. The navigation bar text would move when a user highlighted each link.
     
-        *Solutions:* Outline was replaced with border properties.
+        *Solutions:* The nav bar was moved to a horizontal layout, this avoided the text moving issues.
     
-    1. The gallery image descriptions were not appearing on the picture when hovering it as the position of the .image_content was set to fixed.
+    2. The top boots section would warp when viewed on certain devices, with images and text not always centered.
         
-        *Solution:* The .image_content position was set to absolute, with the top: 0, left: 0, and added padding on the .image_content. 
+        *Solution:* flexbox was used across all relevant child elements in order to ensure the response designs 
 
-    1. Footer on the contact page was reducing the size of the screen and shrank the contact form as the height of the background image was set to calc(100vh-the size of the footer)
+    3. The sign up section would become unreadable with certain screen sizes.
         
-        *Solution:* The height of the image was set to 100hv, and the display of the footer was set to fixed.
+        *Solution:* The section was re-designed to remove a background image and instead use a flexible design that would be more satisfying for users on all screen sizes.
     ---
 + ##### Unsolved bugs
     - None.
 + ##### Mistakes
-    - Mistakes were made while committing changes. I used past simple tense in commits due to the habit when I just started working on this project.
-    - While progressing in my code I learned to use present simple tense in commits.
+    - The orginal sign design was not responsive, being over reliant on media queries to work on varying devices. This was resolved as part of a re-write.
+    - While progressing in my code I learned to use flex more deeply on my web site design
 
 ---
 ## Validator testing
 + ### HTML
   #### Home Page
     - No errors or warnings were found when passing through the official W3C validator.
-
     
-  #### Gallery Page
+  #### Top Boots Page
     - No errors or warnings were found when passing through the official W3C validator.
 
-  #### Contact Page
+  #### Sign Up Page
     - No errors or warnings were found when passing through the official W3C validator.
 
   #### Response Page
@@ -270,12 +239,6 @@ In order to confirm the correct functionality, responsiveness, and appearance:
     
 + ### CSS
   No errors or warnings were found when passing through the official W3C (Jigsaw) validator except:
-    
-    - 3 errors regarding *all: unset*: "Property all doesn't exist. The closest matching property name is fill : unset".
-
-    - Even though this error is present, I don't believe it is 100% accurate, and more information can be found
-  
-    - 43 warning regarding the use of *:root variables*: "Due to their dynamic nature, CSS variables are currently not statically checked".
 
 
 + ### Accessibility and performance 
@@ -283,9 +246,9 @@ In order to confirm the correct functionality, responsiveness, and appearance:
     
   #### Home page
 
-  #### Gallery page
+  #### Top Boots page
 
-  #### Contact page
+  #### Sign Up page
 
   #### Response page
 
@@ -296,15 +259,6 @@ In order to confirm the correct functionality, responsiveness, and appearance:
   - In the [GitHub repository](https://github.com/t0bes1/bootx), navigate to the Settings tab 
   - From the source section drop-down menu, select the **Main** Branch, then click "Save".
   - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-
----
-
-## Future improvements
-- add favicon with [Favicon Generator. For real.](https://realfavicongenerator.net/);
-- add custom 404 page;
-- add accessability report with [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/);
-- improve the quality of the commit messages (I am aware that some of them are not very clear and not meeting the standards and will improve them in the future);
-- add fully functional contact form when;
 
 ---
 ## Credits
