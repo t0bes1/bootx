@@ -20,7 +20,6 @@
 }
 
 /*holistic style rules*/
-h1,
 h2 {
     font-family: var(--primary-ff);
     padding: 1em;
@@ -210,6 +209,7 @@ a:hover {
     border-width: 5px;
     border-style: solid;
     padding: 5%;
+    cursor: none;
 }
 
 #top-boots-price-premium {
@@ -219,6 +219,7 @@ a:hover {
     border-width: 5px;
     border-style: solid;
     padding: 5%;
+    cursor: none;
 }
 
 /*sign up container*/
