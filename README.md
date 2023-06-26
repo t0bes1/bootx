@@ -54,7 +54,7 @@ As a user I want to be able to sign up to receive notifications about boots that
 
 + #### About Section
 
-    - gives 3 compelling key reasons why a consumer would want to use the company.
+    - Gives 3 compelling key reasons why a consumer would want to use the company.
 
     ---
 + #### Top Boots Section
@@ -129,6 +129,8 @@ As a user I want to be able to sign up to receive notifications about boots that
 ## Design
 
 ### Brand Guide
+
+The website is created using a brand guide, designed by Nick Walters [Link](../assets/images/)
 
 ### Wireframes
 
