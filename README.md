@@ -130,7 +130,7 @@ As a user I want to be able to sign up to receive notifications about boots that
 
 ### Brand Guide
 
-The website is created using a brand guide, designed by Nick Walters [Link](../assets/images/)
+The website is created using a brand guide, designed by Nick Walters [Link](documentation/bootx-nu-html-checker.png)
 
 ### Wireframes
 

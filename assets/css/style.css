@@ -42,39 +42,34 @@ a:visited {
 }
 
 a:hover {
-    transform: scale(1.2);
-    box-shadow: inset 200px 0 0 0 lightgoldenrodyellow;
+    box-shadow: inset 200px 0 0 0 lightslategray;
 }
 
 /*header*/
 #top-bar {
-    height: 150px;
     margin-top: 30px;
+    display: flex;
+    justify-content: center;
     background-color: var(--primary-clr);
-    position: relative;
 }
 
 #logo {
-    height: 150px;
-    width: 150px;
-    position: absolute;
-    left: 10%;
+    width: 10%;
+    min-width: 80px;
+    min-height: 80px;
 }
 
 #nav-bar {
     color: var(--secondary-clr);
     font-size: 120%;
     font-family: var(--secondary-ff);
-    width: 30%;
+    width: 70%;
     text-align: center;
-
-    position: absolute;
-    right: 10%;
-    top: 40%;
-
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1%;
 }
 
 #nav-bar a {
@@ -93,7 +88,6 @@ a:hover {
     width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
-
     overflow: hidden;
     position: relative;
 }
@@ -103,7 +97,6 @@ a:hover {
     width: 100%;
     background: url(../images/boots-image-hero-medium.jpg) no-repeat center center;
     background-position: bottom;
-
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -121,17 +114,14 @@ a:hover {
 }
 
 #hero-cover-text {
-    height: 300px;
     width: 300px;
     text-align: center;
     font-family: var(--primary-ff);
-
     padding: 2%;
     background-color: var(--secondary-clr);
-    opacity: 0.5;
-
+    opacity: 0.7;
     position: absolute;
-    right: 5%;
+    right: 10%;
     bottom: 10%;
 }
 
@@ -150,7 +140,6 @@ a:hover {
 #about-section {
     width: 100%;
     background: var(--secondary-clr);
-
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -161,7 +150,6 @@ a:hover {
     text-align: center;
     padding: 5%;
     width: 30%;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -174,7 +162,6 @@ a:hover {
     margin-top: 25px;
     margin-bottom: 25px;
     text-align: center;
-
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -184,7 +171,6 @@ a:hover {
     font-family: var(--secondary-ff);
     padding: 1%;
     width: 30%;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -249,7 +235,7 @@ a:hover {
 
 #sign-up-link a {
     background-color: var(--primary-clr);
-    padding: 1.5em;
+    padding: 1em;
     font-family: var(--secondary-ff);
     font-size: 150%;
 }
@@ -389,9 +375,9 @@ footer {
 }
 
 .social-container a {
-    width: 10%;
     text-align: center;
     font-size: 300%;
+    padding: 2%;
     color: var(--secondary-clr);
 }
 
@@ -481,6 +467,7 @@ footer {
 
     #sign-up-link {
         width: 80%;
+        font-size: 70%;
     }
 
     #sign-up-container p {
