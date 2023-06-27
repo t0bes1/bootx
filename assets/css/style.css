@@ -51,7 +51,7 @@ a:hover {
     margin-top: 30px;
     display: flex;
     justify-content: center;
-    background-color: var(--primary-clr);
+    background-color: blue;
 }
 
 #logo {
@@ -118,6 +118,7 @@ a:hover {
     width: 300px;
     text-align: center;
     font-family: var(--primary-ff);
+    font-size: 120%;
     padding: 2%;
     background-color: var(--secondary-clr);
     opacity: 0.7;
