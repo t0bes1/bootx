@@ -51,7 +51,7 @@ a:hover {
     margin-top: 30px;
     display: flex;
     justify-content: center;
-    background-color: blue;
+    background-color: var(--primary-clr);
 }
 
 #logo {
@@ -269,13 +269,13 @@ a:hover {
 #sign-up-why {
     display: flex;
     flex-direction: column;
-    padding: 3%;
+    padding: 2%;
 }
 
 #sign-up-why li {
     font-size: 120%;
     margin-left: 5%;
-    padding: 2%;
+    padding: 0.5%;
 }
 
 #sign-up-form {
@@ -285,7 +285,6 @@ a:hover {
 #sign-up-form-detail {
     font-family: var(--secondary-ff);
     margin-left: 5%;
-    max-width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -302,8 +301,8 @@ a:hover {
     padding: 1em;
     margin-bottom: 20px;
     margin-top: 10px;
-    max-width: 400px;
-    min-width: 200px;
+    max-width: 500px;
+    min-width: 250px;
 }
 
 .sign-up-button {
@@ -329,7 +328,6 @@ a:hover {
     -webkit-user-select: none;
     touch-action: manipulation;
     max-width: 400px;
-    min-width: 200px;
     will-change: transform;
 }
 
@@ -479,21 +477,20 @@ footer {
 
     #sign-up-why {
         font-size: 80%;
-        padding: 3%;
+    }
+
+    #sign-up-why li {
+        padding: 2%;
     }
 
     .social-container a {
         font-size: 200%;
     }
 
-    #sign-up-form {
-        display: flex;
-        justify-content: center;
-    }
-
     #sign-up-form-detail {
         font-family: var(--secondary-ff);
         margin-left: 0;
-        max-width: 60%;
+        align-items: center;
+        max-width: 100%;
     }
 }
