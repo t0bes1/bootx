@@ -8,6 +8,8 @@
 
 The site can be accessed by this [link](https://t0bes1.github.io/bootx/)
 
+![Response Viewer](/documentation/bootx-am-i-responsive.png)
+
 ---
 ## User Stories
 
@@ -49,6 +51,7 @@ As a user I want to understand the social media pages the company operates and b
         * Shows top boots available for sale.
         * Invites to fill out the sign up form.
 
+        [Full Home Page](/documentation/home-full-page.png)
 ---
 
 + #### Hero Section
@@ -57,12 +60,14 @@ As a user I want to understand the social media pages the company operates and b
 
     - Hero section have the block section below the image that consist of a Short description of the company's philosophy.
 
+        ![Hero Section](/documentation/bootx-hero-section.jpg)
 --- 
 
 + #### About Section
 
     - Gives 3 compelling key reasons why a consumer would want to use the company.
 
+        ![About Section](/documentation/bootx-about-section.jpg)
     ---
 + #### Top Boots Section
 
@@ -74,32 +79,35 @@ As a user I want to understand the social media pages the company operates and b
 
     - Each top boots shows an indicative price, should the customer wish to contact us for purchase.
 
+        ![Top Boots Section](/documentation/bootx-top-boots-section.jpg)
 ---
 + #### Sign Up Section
 
-    - The Sign Up Section shows reasons for the usert to want to sign up to the company mailing list.
+    - The Sign Up Section shows reasons for the users to want to sign up to the company mailing list.
 
     - Is also has a button that directs to the Sign Up page.
 
+        ![Sign Up Section](/documentation/bootx-sign-up-section.jpg)
 ---
 + #### Footer
 
     - Footer contains social media links that open in a new tab.
 ​
+        ![Footer](/documentation/bootx-footer.jpg)
 ---
 + ### Top Boots Page
 
     - The Top Boots page shows 5 pairs of boots available for sale.
 
-    - Each top boots has a picutre of the boots.
+    - Each top boots has a picture of the boots.
 
-    - Each top boots shows a Size and Desctipiion of the pair for sale.
+    - Each top boots shows a size and description of the pair for sale.
 
     - Each top boots shows an indicative price, should the customer wish to contact us for purchase.
 
     - Each top boots has an orange bar for a "value" price and silver bar for a "premium" price.
 
-
+        [Top Boots Page](/documentation/top-boots-full-page.png)
 ---
 + ### Sign Up page
 
@@ -113,6 +121,7 @@ As a user I want to understand the social media pages the company operates and b
 
     - The submit button leads to the response page.
 
+        [Sign Up Page](/documentation/signup-full-page.png)
 ---
 + ### Response page
 
@@ -151,29 +160,13 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
 + The website was tested on the following browsers: Chrome, Firefox, Brave.
 
-    - Chrome:
-
-    - FireFox:
-
-    - Brave:
-
-+ The website was checked by devtools implemented in Firefox and Chrome browsers.
-
-    - Main Page:
-
-    - Top Boots Page:
-
-    - Sign Up Page:
-
-    - Response Page:
-
 + The website was checked with [Responsive Website Design Tester](https://responsivedesignchecker.com/).
 
-    - Desktop Screens:
+    - Desktop Screens: ![Link](/documentation/desktop-responsiveview.png)
 
-    - Tablet Screens:
+    - Tablet Screens: ![Link](/documentation/tablet-responsiveview.png)
 
-    - Mobile Screens:
+    - Mobile Screens: ![Link](/documentation/mobile-responsiveview.png)
 
 + The functionality of the links in the website was checked as well by different users.
 
@@ -243,20 +236,18 @@ In order to confirm the correct functionality, responsiveness, and appearance:
     ![W3Ctopboots](/documentation/bootx-wc3checker-signup.png)
     
 + ### CSS
-  No errors or warnings were found when passing through the official W3C (Jigsaw) validator except:
+  No errors were found when passing through the official W3C (Jigsaw) validator:
 
+    ![W3Ccss](/documentation/bootx-w3cchecker-css.png)
 
-+ ### Accessibility and performance 
+  15 warnings were detected, though these all relate to the use of variables, which have no demostrable impact on the wesbite:
+
+    ![W3Ccsswarnings](/documentation/bootx-css-warnings.png)
+
++ ### Lighthouse Report: Accessibility and performance 
     - Using lighthouse in devtools I confirmed that the website is performing well, accessible and colors and fonts chosen are readable.
-    
-  #### Home page
 
-  #### Top Boots page
-
-  #### Sign Up page
-
-  #### Response page
-
+    ![Lighthouse](/documentation/bootx-lighthouse-report.png)
 ---
 ## Deployment
 
@@ -265,13 +256,28 @@ In order to confirm the correct functionality, responsiveness, and appearance:
   - From the source section drop-down menu, select the **Main** Branch, then click "Save".
   - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
+## Local Deployment
+
+In order to make a local copy of this project, you can clone it.
+In your IDE Terminal, type the following command to clone my repository:
+
+- `git clone https://github.com/t0bes1/bootx.git`
+
 ---
 ## Credits
 
 + #### Content
 
-    - Inspiration for the gallery hover effect came from the article "How to add a gradient to overlay to a background image using just CSS and HTML" published the website [Web Dev etc](https://webdevetc.com).
-    - Inspiration for the responsive hamburger navbar came from [Kevin Powell](https://www.youtube.com/user/KepowOb) on his YouTube channel.
+  - All images have been taken personally, they are listed as follows:
+    [Hero Image](/assets/images/boots-image-hero-sized.jpg)
+    [Top Boots 1](/assets/images/blue-boots1.jpg)
+    [Top Boots 2](/assets/images/white-boots2-img.jpg)
+    [Top Boots 3](/assets/images/blue-slide-boots3-img.jpg)
+    [Top Boots 4](/assets/images/black-boots4.img.jpg)
+    [Top Boots 5](/assets/images/red-boots5-img.jpg)
+
+  - Boot sales descriptions have been created by using Google Bard [link](https://bard.google.com/)
+
 ---
 
 ## Acknowledgments
