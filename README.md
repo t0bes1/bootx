@@ -35,15 +35,17 @@ As a user I want to understand the social media pages the company operates and b
     - The links have animated hover effect.
     - The navigation is clear and easy to understand for the user.
 
+    ![navbar](/documentation/bootx-navigation-bar.jpg)
+
     - The navigation bar is responsive
 ---
 
 + ### Home Page
 
-    - Represent: 
+    - This represents: 
 
-        * the main idea of the company.
-        * Emphasize the strong points of the company.
+        * The main idea of the company.
+        * Emphasises the strong points of the company.
         * Shows top boots available for sale.
         * Invites to fill out the sign up form.
 
@@ -64,7 +66,7 @@ As a user I want to understand the social media pages the company operates and b
     ---
 + #### Top Boots Section
 
-    - Testimonials Section has three feedbacks from people who were satisfied with the company's service.
+    - This shows one of the pairs of boots currently available for sale.
 
     - Each top boots has a picture of the boots.
 
@@ -135,15 +137,11 @@ As a user I want to understand the social media pages the company operates and b
 
 ### Brand Guide
 
-The website is created using a brand guide, designed by Nick Walters [Link](/documentation/bootx-brand-guide.jpg)
+The website is created using a brand guide, designed by Nick Walters: [Link](/documentation/bootx-brand-guide.jpg)
 
-### Wireframes
+### Wireframes 
 
-#### Mobile devices
-
-#### Tablets
-
-#### Desktop
+The basic structure of the website was created using Balsamiq and are shown here: [Link](/documentation/final-wire-frames.pdf)
 
 ---
 
