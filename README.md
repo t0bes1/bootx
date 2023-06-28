@@ -1,5 +1,6 @@
 
 ---
+![Bootx logo](/assets/images/bootx-logo.jpg)
 
 # *Bootx*
 
@@ -14,7 +15,11 @@ As a user I want to be able to undertsand Bootx, why it exists and its benefits,
 
 As a user I want to be able to browse some of the best boots available for purchase, so that I can see the types of boots available for sale and determine whether I would like to use the service
 
+As a user I want to be able to see a picture, the size, the model and desciption of each pair of boots so that I can fully understand the opportunity being presented for purchase
+
 As a user I want to be able to sign up to receive notifications about boots that are becoming available for sale, so that I can see boots relevant to me and determine whether I would like to make a purchase
+
+As a user I want to understand the social media pages the company operates and be provided links to each page so that I can navigate to view these assets
 
 ## Features
 
