@@ -26,7 +26,7 @@ As a user I want to understand the social media pages the company operates and b
 + ### Navbar
 
 + ##### Navigation
-    - Positioned at the top of the page.
+    - Positioned at the top of the page, with a small top margin.
     - Contains logo of the company on the left side.
     - Contains navigation links on the right side:
         * HOME - leads to the home page where users can learn about the company Bootx.
@@ -68,7 +68,7 @@ As a user I want to understand the social media pages the company operates and b
 
     - Each top boots has a picture of the boots.
 
-    - Each top boots shows a Size and Desctipiion of the pair for sale.
+    - Each top boots shows a Size and Description of the pair for sale.
 
     - Each top boots shows an indicative price, should the customer wish to contact us for purchase.
 
@@ -135,7 +135,7 @@ As a user I want to understand the social media pages the company operates and b
 
 ### Brand Guide
 
-The website is created using a brand guide, designed by Nick Walters [Link](documentation/bootx-nu-html-checker.png)
+The website is created using a brand guide, designed by Nick Walters [Link](/documentation/bootx-brand-guide.jpg)
 
 ### Wireframes
 
@@ -231,15 +231,18 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 + ### HTML
   #### Home Page
     - No errors or warnings were found when passing through the official W3C validator.
-    
+
+    ![W3Cindex](/documentation/bootx-wc3checker-index.png)
+
   #### Top Boots Page
     - No errors or warnings were found when passing through the official W3C validator.
+    
+    ![W3Ctopboots](/documentation/bootx-wc3checker-top-boots.png)
 
   #### Sign Up Page
     - No errors or warnings were found when passing through the official W3C validator.
-
-  #### Response Page
-    - No errors or warnings were found when passing through the official W3C validator.
+    
+    ![W3Ctopboots](/documentation/bootx-wc3checker-signup.png)
     
 + ### CSS
   No errors or warnings were found when passing through the official W3C (Jigsaw) validator except:
