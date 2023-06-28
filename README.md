@@ -1,6 +1,6 @@
 
 ---
-![Bootx logo](/assets/images/bootx-logo.jpg)
+![Bootx logo](/documentation/bootx-logo-small.png)
 
 # *Bootx*
 
@@ -15,13 +15,15 @@ The site can be accessed by this [link](https://t0bes1.github.io/bootx/)
 
 As a user I want to be able to undertsand Bootx, why it exists and its benefits, so that I can determine whether I would like to use the service
 
-As a user I want to be able to browse some of the best boots available for purchase, so that I can see the types of boots available for sale and determine whether I would like to use the service
+As a user I want to be able to see some of the best boots available for purchase, so that I can see if the boots are suitable for my child and so determine whether I would like to use the service
 
 As a user I want to be able to see a picture, the size, the model and desciption of each pair of boots so that I can fully understand the opportunity being presented for purchase
 
 As a user I want to be able to sign up to receive notifications about boots that are becoming available for sale, so that I can see boots relevant to me and determine whether I would like to make a purchase
 
 As a user I want to understand the social media pages the company operates and be provided links to each page so that I can navigate to view these assets
+
+As a user I want to be able to navigate all this content as quickly and easily as possible, so that I can use the product in an intuitive and satisfying way
 
 ## Features
 
@@ -146,7 +148,9 @@ As a user I want to understand the social media pages the company operates and b
 
 ### Brand Guide
 
-The website is created using a brand guide, designed by Nick Walters: [Link](/documentation/bootx-brand-guide.jpg)
+The website is created using a brand guide, designed by Nick Walters:
+
+![Brand Guide](/documentation/bootx-brand-guide.jpg)
 
 ### Wireframes 
 
@@ -270,10 +274,15 @@ In your IDE Terminal, type the following command to clone my repository:
 
   - All images have been taken personally, they are listed as follows:
     [Hero Image](/assets/images/boots-image-hero-sized.jpg)
+
     [Top Boots 1](/assets/images/blue-boots1.jpg)
+
     [Top Boots 2](/assets/images/white-boots2-img.jpg)
+
     [Top Boots 3](/assets/images/blue-slide-boots3-img.jpg)
+
     [Top Boots 4](/assets/images/black-boots4.img.jpg)
+    
     [Top Boots 5](/assets/images/red-boots5-img.jpg)
 
   - Boot sales descriptions have been created by using Google Bard [link](https://bard.google.com/)
