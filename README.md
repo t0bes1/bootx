@@ -273,6 +273,7 @@ In your IDE Terminal, type the following command to clone my repository:
 + #### Content
 
   - All images have been taken personally, they are listed as follows:
+  
     [Hero Image](/assets/images/boots-image-hero-sized.jpg)
 
     [Top Boots 1](/assets/images/blue-boots1.jpg)
@@ -282,7 +283,7 @@ In your IDE Terminal, type the following command to clone my repository:
     [Top Boots 3](/assets/images/blue-slide-boots3-img.jpg)
 
     [Top Boots 4](/assets/images/black-boots4.img.jpg)
-    
+
     [Top Boots 5](/assets/images/red-boots5-img.jpg)
 
   - Boot sales descriptions have been created by using Google Bard [link](https://bard.google.com/)
