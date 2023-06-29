@@ -251,7 +251,18 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 + ### Lighthouse Report: Accessibility and performance 
     - Using lighthouse in devtools I confirmed that the website is performing well, accessible and colors and fonts chosen are readable.
 
+    Home Page:
+
     ![Lighthouse](/documentation/bootx-lighthouse-report.png)
+
+
+    Top Boots Page:
+
+    ![Lighthouse](/documentation/lighthouse-top-boots.png)
+
+    Sign Up Page:
+
+    ![Lighthouse](/documentation/lighthouse-signup.png)
 ---
 ## Deployment
 
