@@ -253,16 +253,15 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
     Home Page:
 
-    ![Lighthouse](/documentation/bootx-lighthouse-report.png)
-
+    ![Lighthouse Home](/documentation/bootx-lighthouse-report.png)
 
     Top Boots Page:
 
-    ![Lighthouse](/documentation/lighthouse-top-boots.png)
+    ![Lighthouse Top Boots](/documentation/lighthouse-top-boots.png)
 
     Sign Up Page:
 
-    ![Lighthouse](/documentation/lighthouse-signup.png)
+    ![Lighthouse Soign Up](/documentation/lighthouse-signup.png)
 ---
 ## Deployment
 
